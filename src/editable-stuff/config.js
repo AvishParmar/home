@@ -64,7 +64,7 @@ const repos = {
   heading: "Recent Projects",
   gitHubUsername: "AvishParmar", //i.e."johnDoe12Gh"
   reposLength: 0,
-  specificRepos: ["uamp", "Sentence-Representation-Models", "Word-Representation-Model", "Language-Model-Generation"],
+  specificRepos: ["uamp", "Language-Model-Generation", "Sentence-Representation-Models", "Word-Representation-Model"],
 };
 
 // Leadership SECTION
@@ -174,8 +174,8 @@ const experiences = {
 }
 
 // Blog SECTION
-const blog = {
-  show: false,
-};
+// const blog = {
+//   show: false,
+// };
 
 export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
