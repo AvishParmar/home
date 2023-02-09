@@ -51,7 +51,7 @@ const about = {
   imageSize: 375,
   message:
     "I am currently a Senior at Stony Brook University majoring in Computer Science with a specialization in Artificial Intelligence. I am passionate about using my technical skills and critical thinking to solve complex problems that benefit the world. In my free time I like to work on projects, practice & teach yoga, read books, and play drums.",
-  resume: require("../editable-stuff/AvishParmarResume2022.pdf"),
+  resume: require("../editable-stuff/AvishParmarResume2023.pdf"),
 };
 
 // PROJECTS SECTION
@@ -136,24 +136,24 @@ const experiences = {
       date: 'May 2022 - August 2022',
     },
     {
-      role: 'Undergraduate Research Assistant',// Here Add Company Name
+      role: 'NLP Research Assistant',// Here Add Company Name
       companylogo: require('../assets/img/DeptOfCS3.jpg'),
-      date: 'September 2022 - Present',
+      date: 'September 2022 - February 2023',
     },
     {
       role: 'Researcher/Full Stack Developer',// Here Add Company Name
       companylogo: require('../assets/img/TBD2.png'),
-      date: 'January 2021 - Present',
+      date: 'January 2021 - February 2023',
     },
     {
       role: 'Partner Relations',
       companylogo: require('../assets/img/SBUHacks1.png'),
-      date: 'September 2022 - Present',
+      date: 'September 2022 - December 2022',
     },
     {
       role: 'Fundamentals of Software Development (CSE316) Teaching Assistant',
       companylogo: require('../assets/img/DeptOfCS3.jpg'),
-      date: 'August 2022 - Present',
+      date: 'August 2022 - December 2022',
     },
     {
       role: 'Peer Mentor',
