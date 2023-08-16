@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Avish",
   middleName: "",
   lastName: "Parmar",
-  message: " Student, Programmer, Researcher ",
+  message: " Software Engineer, AI Researcher",
   icons: [
     {
       image: "fa-github",
@@ -50,7 +50,7 @@ const about = {
   imageLink: require("../editable-stuff/avishparmar.png"),
   imageSize: 375,
   message:
-    "I am currently a Senior at Stony Brook University majoring in Computer Science with a specialization in Artificial Intelligence. I am passionate about using my technical skills and critical thinking to solve complex problems that benefit the world. In my free time I like to work on projects, practice & teach yoga, read books, and play drums.",
+    "I am a Computer Science Graduate from Stony Brook University with a specialization in Artificial Intelligence and Data Science. I am experienced in Full-Stack Software Engineering, Systems Engineering, Android Development, Machine Learning, Natural Language Processing, Big Data Analytics, and Virtual Reality. In my free time I like to work on projects, practice & teach yoga, read books, and play drums.",
   resume: require("../editable-stuff/AvishParmarResume2023.pdf"),
 };
 
@@ -64,7 +64,7 @@ const repos = {
   heading: "Recent Projects",
   gitHubUsername: "AvishParmar", //i.e."johnDoe12Gh"
   reposLength: 0,
-  specificRepos: ["uamp", "Language-Model-Generation", "Sentence-Representation-Models", "Word-Representation-Model"],
+  specificRepos: ["uamp", "Big-Data-Analytics-Final-Project", "Information-Distortion-Project", "Language-Model-Generation", "Sentence-Representation-Models", "Word-Representation-Model"],
 };
 
 // Leadership SECTION
@@ -72,7 +72,7 @@ const leadership = {
   show: true,
   heading: "Leadership",
   message:
-    "As a student I hold several leadership positions: Vice President of Stony Brook Computing Society, Peer Mentor for the College of Engineering and Applied Sciences, and a Teaching Assistant for Dept. of Computer Science. I am also an Undergraduate Research Assistant for Prof. Banerjee working on the Information Distortion Project; the goal of which is to create a ML model that detects distortions in news headlines and determines whether it is an exaggeration or a meosis. This model would then serve as a tool for individuals to detect fake news as well as determine the bias of their news provider.",
+    "As a student I held several leadership positions: Vice President of Stony Brook Computing Society, Peer Mentor for the College of Engineering and Applied Sciences, and Teaching Assistant for Dept. of Computer Science. I also worked as an Undergraduate Research Assistant for Prof. Banerjee working on the Information Distortion Project and am currently working with Professor Andrew H. Schwartz and Professor Ryan Boyd on the L-Factor project.",
   images: [
     { 
       img: require("../assets/img/sbcs2.jpg"), 
@@ -122,7 +122,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for Software Engineering / Research Internship opportunities for Summer 2023, please feel free to contact me with my email",
+    "I'm currently looking for full-time Software Engineer opportunities, please feel free to contact me with my email",
   email: "avishparmar53@gmail.com", 
 };
 
@@ -130,6 +130,11 @@ const experiences = {
   show: true,
   heading: "Experiences",
   data: [
+    {
+      role: 'AI Research Intern',
+      companylogo: require('../assets/img/bnl.jpg'),
+      date: 'August 2023 - Present',
+    },
     {
       role: 'Developer Programs Engineer Intern',// Here Add Company Name
       companylogo: require('../assets/img/Google-logo.png'),
