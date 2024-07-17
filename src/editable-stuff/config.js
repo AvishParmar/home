@@ -21,7 +21,7 @@ const mainBody = {
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/avish-parmar-40951915a/",
+      url: "https://www.linkedin.com/in/avishparmar/",
     },
     {
       image: "fa-twitter",
@@ -47,11 +47,11 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/avishparmar.png"),
+  imageLink: require("../editable-stuff/avishparmar_3.png"),
   imageSize: 375,
   message:
     "I am a Computer Science Graduate from Stony Brook University with a specialization in Artificial Intelligence and Data Science. I am experienced in Full-Stack Software Engineering, Systems Engineering, Android Development, Machine Learning, Natural Language Processing, Big Data Analytics, and Virtual Reality. In my free time I like to work on projects, practice & teach yoga, read books, and play drums.",
-  resume: require("../editable-stuff/AvishParmarResume2023.pdf"),
+  resume: require("../editable-stuff/AvishParmarResume2024.pdf"),
 };
 
 // PROJECTS SECTION
@@ -133,7 +133,7 @@ const experiences = {
     {
       role: 'AI Research Intern',
       companylogo: require('../assets/img/bnl.jpg'),
-      date: 'August 2023 - Present',
+      date: 'August 2023 - April 2024',
     },
     {
       role: 'Developer Programs Engineer Intern',// Here Add Company Name
@@ -163,7 +163,7 @@ const experiences = {
     {
       role: 'Peer Mentor',
       companylogo: require('../assets/img/CEAS.png'),
-      date: 'August 2021 - Present',
+      date: 'August 2021 - May 2023',
     },
     {
       role: 'Event Coordinator',
